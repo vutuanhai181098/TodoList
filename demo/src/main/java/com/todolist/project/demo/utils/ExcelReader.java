@@ -47,6 +47,7 @@ public class ExcelReader implements IFileReader{
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
+        Task.autoId.set(taskList.size());
         return taskList;
     }
 

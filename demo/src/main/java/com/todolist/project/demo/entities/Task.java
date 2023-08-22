@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Task {
-    public static AtomicInteger autoId = new AtomicInteger(500);
+    public static AtomicInteger autoId = new AtomicInteger(0);
 
     private Integer id;
 
